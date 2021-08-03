@@ -1,0 +1,11 @@
+nome = str(input('Digite seu nome completo: '))
+ma1 = nome.upper()
+ma2 = nome.lower()
+cont = nome.split()
+cont1 = ''.join(cont)
+listname = nome.split()
+firstname = listname[0]
+print('O nome completo em maiúsculas {}'.format(ma1))
+print('O nome completo em minúsculas {}'.format(ma2))
+print('O número de letras do seu nome é {}'.format(len(cont1)))
+print('O número de letras do primeiro nome é {}'.format(len(firstname)))
